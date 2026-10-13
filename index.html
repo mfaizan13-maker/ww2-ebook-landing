@@ -3,168 +3,155 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Forgotten War Files ... [Your Name]</title>
-<meta name="description" content="The WW2 stories the textbooks left out. One ebook, pay once, yours forever.">
+<title>WWII Untold Stories ... The Complete Untold War Library</title>
+<meta name="description" content="Four large-print WWII books from the WWII Untold Stories channel: The Untold War, Leyte, Patton's War and The War in Maps & Photos. Instant PDF download.">
+<meta property="og:title" content="The Complete Untold War Library ... WWII Untold Stories">
+<meta property="og:description" content="Four books. 151 pages. The battles your history books skipped.">
+<meta property="og:image" content="images/b1-cover.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&family=Special+Elite&family=Libre+Baskerville:wght@700&family=Lora:ital,wght@0,400;1,400&family=Oswald:wght@500;600;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville:wght@700&family=Lora:ital,wght@0,400;1,400&family=Oswald:wght@500;600;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-/* =========================================================
-   EDIT GUIDE
-   - Text in [square brackets] = replace with your real info
-   - Cards marked "SAMPLE" = replace with real reader reviews
-   - Price: search "$27" and change everywhere
-   - Buy link: search "#checkout" and paste your Gumroad/Payhip/Stripe link
-   ========================================================= */
 :root{
-  --paper:#efe7cf;
-  --paper-2:#f8f4e6;
-  --ink:#1b1b17;
-  --ink-soft:#57534a;
-  --olive:#3d4a2a;
-  --olive-dark:#232b17;
-  --khaki:#b7a77a;
-  --red:#8c1d1d;
-  --red-dark:#6c1414;
-  --gold:#c9a24a;
-  --steel:#44525e;
-  --line:#cfc4a3;
+  --paper:#eeeadf;
+  --paper-2:#f8f6f0;
+  --ink:#141414;
+  --ink-soft:#4f4c45;
+  --char:#1a1a1a;
+  --gold:#e3b33d;
+  --gold-dark:#b88a1c;
+  --red:#b3261e;
+  --red-dark:#861b15;
+  --steel:#4a545c;
+  --line:#d3cdbd;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:"Atkinson Hyperlegible",Verdana,sans-serif;font-size:19px;line-height:1.6;-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Atkinson Hyperlegible",Verdana,sans-serif;font-size:20px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block;height:auto}
 a{color:inherit}
-.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
-.narrow{max-width:760px;margin:0 auto;padding:0 20px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+.narrow{max-width:780px;margin:0 auto;padding:0 20px}
 
 /* ---------- MASTHEAD ---------- */
-.masthead{
-  position:relative;overflow:hidden;
-  background:
-    radial-gradient(ellipse at 20% 30%, rgba(201,162,74,.18), transparent 55%),
-    radial-gradient(ellipse at 85% 70%, rgba(140,29,29,.25), transparent 50%),
-    repeating-linear-gradient(0deg, rgba(255,255,255,.035) 0 1px, transparent 1px 40px),
-    repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0 1px, transparent 1px 40px),
-    var(--olive-dark);
-  color:#efe2bd;padding:34px 0 30px;border-bottom:6px solid var(--red)
-}
+.masthead{background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,.85)),url("images/b4-thumb3.webp") center 40%/cover,#111;color:#fff;padding:30px 0 26px;border-bottom:6px solid var(--red)}
 .masthead .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}
-.brand{font-family:"Stardos Stencil",Impact,sans-serif;font-size:clamp(30px,5vw,52px);letter-spacing:.08em;line-height:1;margin:0}
-.brand small{display:block;font-family:"Special Elite",monospace;font-size:14px;letter-spacing:.2em;color:var(--khaki);margin-top:8px}
-.stamp{font-family:"Stardos Stencil",Impact,sans-serif;border:3px solid #c0392b;color:#d9534f;padding:6px 14px;transform:rotate(-8deg);font-size:18px;letter-spacing:.15em;opacity:.85;white-space:nowrap}
+.brand{font-family:Anton,Impact,sans-serif;font-size:clamp(30px,5.2vw,54px);letter-spacing:.04em;line-height:1;margin:0;text-transform:uppercase}
+.brand span{color:var(--gold)}
+.brand small{display:block;font-family:Oswald,sans-serif;font-weight:500;font-size:14px;letter-spacing:.22em;color:#cfc8b4;margin-top:10px}
+.launch-tag{background:var(--red);color:#fff;font-family:Oswald,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:15px;padding:8px 14px;white-space:nowrap}
 
 /* ---------- HERO ---------- */
-.hero{padding:64px 0 40px}
-.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
-.eyebrow{font-family:"Special Elite",monospace;color:var(--red);letter-spacing:.12em;font-size:15px;margin:0 0 14px;text-transform:uppercase}
+.hero{padding:60px 0 40px}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.eyebrow{font-family:Oswald,sans-serif;font-weight:600;color:var(--red);letter-spacing:.12em;font-size:16px;margin:0 0 14px;text-transform:uppercase}
 h1{font-family:"Libre Baskerville",Georgia,serif;font-size:clamp(32px,4.2vw,46px);line-height:1.18;letter-spacing:-.01em;margin:0 0 22px}
 .lede{font-family:Lora,Georgia,serif;font-size:clamp(20px,2.2vw,25px);color:var(--ink-soft);margin:0 0 30px}
 .btns{display:flex;flex-wrap:wrap;gap:14px}
-.btn{display:inline-block;text-decoration:none;font-family:Oswald,Impact,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.03em;font-size:22px;padding:14px 28px;border-radius:4px;transition:transform .15s, background .15s}
+.btn{display:inline-block;text-decoration:none;font-family:Oswald,Impact,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.03em;font-size:22px;padding:14px 28px;border-radius:4px;transition:transform .15s, background .15s;text-align:center}
 .btn-red{background:var(--red);color:#fff;box-shadow:0 4px 0 var(--red-dark)}
 .btn-red:hover{background:var(--red-dark);transform:translateY(-2px)}
 .btn-ghost{border:2px solid var(--ink);color:var(--ink)}
 .btn-ghost:hover{background:var(--ink);color:var(--paper)}
-.btn-block{display:block;text-align:center;width:100%;font-size:26px;padding:18px}
+.btn-gold{background:var(--gold);color:#111;box-shadow:0 4px 0 var(--gold-dark)}
+.btn-gold:hover{transform:translateY(-2px)}
+.btn-block{display:block;width:100%;font-size:26px;padding:18px}
 
-/* CSS book mockup — swap for a real cover image later */
-.book-stage{display:flex;justify-content:center;perspective:1400px;padding:10px 0}
-.book{position:relative;width:min(320px,78vw);aspect-ratio:2/3;transform:rotateY(-18deg) rotateX(3deg);transform-style:preserve-3d;
-  box-shadow:22px 26px 40px rgba(0,0,0,.35)}
-.book::before{content:"";position:absolute;top:2%;right:-16px;width:16px;height:96%;background:repeating-linear-gradient(0deg,#f4ecd5 0 2px,#d8ccab 2px 3px);transform:rotateY(90deg) translateZ(0);transform-origin:left}
-.cover{position:absolute;inset:0;border-radius:3px 6px 6px 3px;overflow:hidden;
-  background:
-    radial-gradient(circle at 50% 38%, rgba(201,162,74,.35), transparent 45%),
-    linear-gradient(160deg,#4a5732 0%,#2a3219 60%,#1a1f10 100%);
-  color:#f0e4c0;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:26px 20px;text-align:center;border-left:8px solid #141809}
-.cover .top{font-family:"Special Elite",monospace;font-size:12px;letter-spacing:.25em;color:var(--khaki)}
-.cover .star{width:74px;height:74px;margin:6px auto 0}
-.cover .title{font-family:"Stardos Stencil",Impact,sans-serif;font-size:clamp(28px,4vw,40px);line-height:1;letter-spacing:.04em}
-.cover .title span{display:block;color:var(--gold)}
-.cover .sub{font-family:Lora,serif;font-style:italic;font-size:14px;color:#d8cba4}
-.cover .author{font-family:Oswald,sans-serif;letter-spacing:.2em;font-size:14px;border-top:1px solid rgba(240,228,192,.35);padding-top:10px;width:100%}
-.cover::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(0,0,0,.04) 0 2px,transparent 2px 6px);pointer-events:none}
+/* fanned covers */
+.fan{position:relative;height:500px;max-width:520px;margin:0 auto;width:100%}
+.fan img{position:absolute;width:44%;border-radius:3px;box-shadow:0 18px 34px rgba(0,0,0,.4);top:50%;left:50%}
+.fan img:nth-child(1){transform:translate(-118%,-50%) rotate(-9deg);z-index:1}
+.fan img:nth-child(2){transform:translate(-80%,-54%) rotate(-3deg);z-index:2}
+.fan img:nth-child(3){transform:translate(-20%,-54%) rotate(3deg);z-index:3}
+.fan img:nth-child(4){transform:translate(18%,-50%) rotate(9deg);z-index:4}
 
 /* ---------- SECTIONS ---------- */
 .band{padding:72px 0;border-top:1px solid var(--line)}
 .tile{background:var(--paper-2)}
-.dark{background:var(--olive-dark);color:#efe2bd;border-top:none}
+.dark{background:var(--char);color:#ece6d4;border-top:none}
 .kicker{font-family:Oswald,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.09em;font-size:16px;color:var(--steel);margin:0 0 10px}
-.dark .kicker{color:var(--khaki)}
+.dark .kicker{color:var(--gold)}
 h2{font-family:Oswald,Impact,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.02em;font-size:clamp(30px,4.4vw,46px);line-height:1.08;margin:0 0 24px}
 .body-serif p{font-family:Lora,Georgia,serif;font-size:21px;color:var(--ink-soft);margin:0 0 18px}
-.dark .body-serif p{color:#d6cba8}
+.dark .body-serif p{color:#cfc8b4}
 
 .checks{list-style:none;padding:0;margin:0;display:grid;gap:14px}
 .checks li{position:relative;padding:14px 18px 14px 52px;background:var(--paper-2);border:1px solid var(--line);border-radius:6px}
-.checks li::before{content:"";position:absolute;left:16px;top:18px;width:22px;height:22px;border-radius:50%;background:var(--olive) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/14px no-repeat}
+.checks li::before{content:"";position:absolute;left:16px;top:18px;width:22px;height:22px;border-radius:50%;background:var(--red) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/14px no-repeat}
 .checks.plain li{background:transparent;border:none;border-bottom:1px dashed var(--line);border-radius:0}
-.checks b{font-weight:700}
 
 /* stats */
 .stats{padding:20px 0 64px}
 .stats .grid{display:grid;grid-template-columns:repeat(3,1fr);border:2px solid var(--ink);background:var(--paper-2)}
 .stat{padding:26px 18px;text-align:center;border-right:2px solid var(--ink)}
 .stat:last-child{border-right:none}
-.stat .n{font-family:"Stardos Stencil",Impact,sans-serif;font-size:clamp(36px,5vw,54px);line-height:1;color:var(--red)}
+.stat .n{font-family:Anton,Impact,sans-serif;font-size:clamp(38px,5vw,56px);line-height:1;color:var(--red)}
 .stat .l{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:15px;margin-top:8px}
 
-/* about */
-.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:start}
-.portrait{aspect-ratio:4/5;border-radius:6px;background:
-   linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.35)),
-   repeating-linear-gradient(0deg,#c9bd97 0 2px,#c3b68e 2px 4px);
-  display:flex;align-items:flex-end;justify-content:center;padding:18px;color:#2a2a24;font-family:"Special Elite",monospace;font-size:15px;text-align:center;border:10px solid #fff;box-shadow:0 10px 28px rgba(0,0,0,.18);transform:rotate(-2deg)}
+/* who */
+.about{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:center}
+.about .shot{border:10px solid #fff;box-shadow:0 10px 28px rgba(0,0,0,.2);transform:rotate(-2deg)}
+.views{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+.views div{background:var(--paper-2);border:1px solid var(--line);border-radius:6px;padding:12px 14px;font-size:16px;line-height:1.35}
+.views b{display:block;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:30px;color:var(--red);line-height:1.1}
 
 /* offer */
-.offer-card{max-width:680px;margin:0 auto;background:#fff;border:3px solid var(--ink);border-radius:8px;padding:34px clamp(18px,4vw,40px);box-shadow:10px 10px 0 var(--olive)}
+.offer-card{max-width:700px;margin:0 auto;background:#fff;border:3px solid var(--ink);border-radius:8px;padding:34px clamp(18px,4vw,40px);box-shadow:10px 10px 0 var(--gold)}
+.offer-covers{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0 0 24px}
+.offer-covers img{border-radius:2px;box-shadow:0 6px 14px rgba(0,0,0,.25)}
 .price-line{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.04em;font-size:20px;text-align:center;margin:0}
-.price-line .big{font-family:"Stardos Stencil",Impact,sans-serif;font-size:64px;color:var(--red);display:block;line-height:1;margin:6px 0}
-.delivery{text-align:center;color:var(--ink-soft);font-size:16px;margin:4px 0 26px}
+.price-line .big{font-family:Anton,Impact,sans-serif;font-size:72px;color:var(--red);display:block;line-height:1;margin:6px 0}
+.delivery{text-align:center;color:var(--ink-soft);font-size:17px;margin:4px 0 26px}
 .offer-card h3{font-family:Oswald,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.03em;font-size:28px;margin:0 0 10px}
 .items{list-style:none;padding:0;margin:20px 0}
 .items li{display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding:14px 0;border-bottom:1px dashed var(--line);font-size:17px}
-.items .tag{display:block;font-family:Oswald,sans-serif;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--olive)}
+.items .tag{display:block;font-family:Oswald,sans-serif;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--red)}
 .items .val{font-family:Oswald,sans-serif;font-weight:600;white-space:nowrap;font-size:20px}
-.items .val s{color:#999;font-weight:500;margin-right:6px}
-.items .free{color:var(--olive)}
 .total{display:flex;justify-content:space-between;align-items:baseline;font-family:Oswald,sans-serif;text-transform:uppercase;font-size:22px;margin:6px 0 24px}
 .total .val s{color:#999;margin-right:10px}
 .total .val b{color:var(--red);font-size:34px}
 .payonce{text-align:center;font-family:Oswald,sans-serif;letter-spacing:.14em;font-size:14px;color:var(--ink-soft);margin:12px 0 0}
+.code{margin:18px 0 0;text-align:center;font-size:16px;color:var(--ink-soft)}
+.code b{font-family:Oswald,sans-serif;letter-spacing:.1em;background:#fff4d6;border:1px dashed var(--gold-dark);color:#6b4e00;padding:2px 8px}
 .guarantee{display:flex;gap:16px;align-items:center;background:var(--paper-2);border:1px solid var(--line);border-radius:6px;padding:16px;margin-top:24px;font-size:16px}
-.seal{flex:0 0 78px;height:78px;border-radius:50%;border:3px double var(--olive);display:flex;align-items:center;justify-content:center;text-align:center;font-family:Oswald,sans-serif;font-weight:700;font-size:13px;line-height:1.1;color:var(--olive);transform:rotate(-10deg)}
+.seal{flex:0 0 78px;height:78px;border-radius:50%;border:3px double var(--red);display:flex;align-items:center;justify-content:center;text-align:center;font-family:Oswald,sans-serif;font-weight:700;font-size:13px;line-height:1.1;color:var(--red);transform:rotate(-10deg)}
 .trust{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px 18px;margin-top:20px;font-size:15px;color:var(--ink-soft)}
-.trust .cards{display:flex;gap:6px}
-.trust .cards span{font-family:Oswald,sans-serif;font-size:12px;border:1px solid #bbb;border-radius:3px;padding:2px 7px;background:#fafafa}
-.stars{color:var(--gold);letter-spacing:2px}
-.support{text-align:center;font-size:15px;color:var(--ink-soft);margin-top:20px}
+.support{text-align:center;font-size:15px;color:var(--ink-soft);margin-top:18px}
 
-/* reviews */
-.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.review{position:relative;background:#fff;border:1px solid var(--line);border-radius:6px;padding:22px;font-family:Lora,Georgia,serif;font-size:17px;color:#3a3830}
-.review .who{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:14px;color:var(--steel);margin-top:12px}
-.review .r{font-family:Oswald,sans-serif;font-size:15px;color:var(--ink)}
-.sample{position:absolute;top:10px;right:10px;font-family:Oswald,sans-serif;font-size:11px;letter-spacing:.12em;background:#ffe9a8;color:#7a5a00;padding:2px 6px;border-radius:3px}
+/* books */
+.book-row{display:grid;grid-template-columns:300px 1fr;gap:48px;align-items:start;padding:56px 0;border-top:1px solid var(--line)}
+.book-row:first-of-type{border-top:none;padding-top:10px}
+.book-row .cov img{border-radius:3px;box-shadow:0 16px 32px rgba(0,0,0,.3)}
+.book-row .num{font-family:Oswald,sans-serif;font-weight:600;color:var(--red);letter-spacing:.12em;text-transform:uppercase;font-size:15px}
+.book-row h3{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(30px,3.6vw,42px);line-height:1.05;margin:6px 0 10px;letter-spacing:.01em}
+.book-row .hl{font-family:Lora,Georgia,serif;font-style:italic;font-size:20px;color:var(--ink-soft);margin:0 0 18px}
+.book-row ul{margin:0 0 20px;padding-left:22px;font-size:18px}
+.book-row li{margin:4px 0}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.meta span{font-family:Oswald,sans-serif;font-size:14px;letter-spacing:.06em;text-transform:uppercase;background:var(--char);color:#fff;padding:4px 10px;border-radius:3px}
+.buyline{display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+.buyline .p{font-family:Anton,Impact,sans-serif;font-size:36px;color:var(--red)}
+.buyline .p s{font-family:Oswald,sans-serif;font-size:20px;color:#999;margin-left:8px}
+.buyline .btn{font-size:19px;padding:12px 22px}
 
-/* inside / dossier */
+/* key facts sample (the "chart" section) */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
-.dossier{background:#e8dcb6;border-radius:4px;padding:26px;font-family:"Special Elite",monospace;font-size:16px;color:#2b2a22;position:relative;box-shadow:0 12px 30px rgba(0,0,0,.18);transform:rotate(1deg)}
-.dossier::before{content:"TOP SECRET";position:absolute;top:16px;right:16px;font-family:"Stardos Stencil",sans-serif;color:#b02a2a;border:2px solid #b02a2a;padding:2px 8px;transform:rotate(8deg);font-size:15px;opacity:.8}
-.dossier h4{font-family:"Stardos Stencil",sans-serif;font-size:22px;margin:0 0 14px;letter-spacing:.06em}
-.dossier ol{margin:0;padding-left:22px}
-.dossier li{padding:6px 0;border-bottom:1px dotted #a99c74}
-.redact{background:#1b1b17;color:#1b1b17;border-radius:2px;padding:0 4px}
+.facts{background:#fff;border:3px solid var(--ink);border-radius:6px;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.15)}
+.facts .head{background:var(--char);color:var(--gold);font-family:Anton,Impact,sans-serif;font-size:24px;letter-spacing:.04em;padding:12px 18px;text-transform:uppercase}
+.facts img{width:100%}
+.facts dl{margin:0;padding:8px 18px 18px;display:grid;grid-template-columns:auto 1fr;gap:10px 18px;font-size:17px}
+.facts dt{font-family:Oswald,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--steel);font-size:14px;padding-top:3px}
+.facts dd{margin:0}
+.facts .why{border-top:2px solid var(--ink);padding:14px 18px;background:#fff8e3;font-family:Lora,serif;font-size:17px}
+.facts .why b{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--red);font-size:14px;display:block}
 
-/* timeline (the "arithmetic" equivalent) */
-.timeline{list-style:none;margin:0;padding:0;border-left:3px solid var(--khaki);margin-left:8px}
-.timeline li{position:relative;padding:0 0 22px 28px}
-.timeline li::before{content:"";position:absolute;left:-10px;top:6px;width:17px;height:17px;border-radius:50%;background:var(--red);border:3px solid var(--olive-dark)}
-.timeline .d{font-family:Oswald,sans-serif;letter-spacing:.06em;color:var(--gold);font-size:16px;text-transform:uppercase}
-.timeline .t{font-size:18px}
-.tl-total{display:flex;justify-content:space-between;align-items:baseline;border-top:2px solid var(--khaki);padding-top:16px;font-family:Oswald,sans-serif;text-transform:uppercase;font-size:22px}
-.tl-total b{font-family:"Stardos Stencil",sans-serif;font-size:40px;color:var(--gold)}
+/* arithmetic */
+.calc{list-style:none;margin:0;padding:0}
+.calc li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px dashed rgba(236,230,212,.25);font-size:19px}
+.calc li span:last-child{font-family:Oswald,sans-serif;font-size:22px;white-space:nowrap}
+.calc .sum{border-bottom:none;border-top:2px solid var(--gold);margin-top:6px;font-family:Oswald,sans-serif;text-transform:uppercase;font-size:20px}
+.calc .sum span:last-child{font-family:Anton,Impact,sans-serif;font-size:40px;color:var(--gold)}
+.calc .save span:last-child{color:var(--gold)}
 
 /* faq */
 .faq details{border-bottom:1px solid var(--line);padding:4px 0}
@@ -174,34 +161,38 @@ h2{font-family:Oswald,Impact,sans-serif;font-weight:600;text-transform:uppercase
 .faq details[open] summary::after{transform:rotate(45deg)}
 .faq details p{margin:0 0 18px;font-family:Lora,Georgia,serif;color:var(--ink-soft);font-size:19px}
 
-/* final cta + footer */
 .final{text-align:center}
-.final .btn{max-width:520px}
-.foot{background:#111110;color:#a69f8a;padding:36px 0;font-size:14px;text-align:center}
-.foot a{color:#d6cba8}
+.final .btn{max-width:540px;margin:0 auto}
+.foot{background:#0d0d0d;color:#a39d8c;padding:36px 0;font-size:14px;text-align:center}
+.foot a{color:#d6cfb8}
 .foot nav{display:flex;flex-wrap:wrap;justify-content:center;gap:18px;margin-bottom:12px}
 
-/* mobile sticky buy bar */
-.sticky{position:fixed;left:0;right:0;bottom:0;background:var(--olive-dark);padding:10px 16px;display:none;align-items:center;justify-content:space-between;gap:12px;z-index:50;box-shadow:0 -4px 16px rgba(0,0,0,.25);transform:translateY(100%);transition:transform .25s}
+.sticky{position:fixed;left:0;right:0;bottom:0;background:var(--char);padding:10px 16px;display:none;align-items:center;justify-content:space-between;gap:12px;z-index:50;box-shadow:0 -4px 16px rgba(0,0,0,.25);transform:translateY(100%);transition:transform .25s}
 .sticky.show{transform:none}
-.sticky .p{color:#efe2bd;font-family:Oswald,sans-serif;font-size:18px;letter-spacing:.04em}
+.sticky .p{color:#ece6d4;font-family:Oswald,sans-serif;font-size:17px;letter-spacing:.03em;line-height:1.2}
+.sticky .p b{color:var(--gold)}
 .sticky .btn{font-size:18px;padding:10px 18px}
 
-@media (max-width:860px){
+@media (max-width:900px){
   body{font-size:18px}
-  .hero{padding:40px 0 24px}
+  .hero{padding:36px 0 24px}
   .hero .wrap,.about,.split{grid-template-columns:1fr;gap:34px}
   .hero .art{order:-1}
-  .book{width:min(240px,62vw)}
-  .reviews{grid-template-columns:1fr}
+  .fan{height:min(92vw,420px)}
+  .book-row{grid-template-columns:1fr;gap:24px}
+  .book-row .cov{max-width:240px}
   .stats .grid{grid-template-columns:1fr}
   .stat{border-right:none;border-bottom:2px solid var(--ink)}
   .stat:last-child{border-bottom:none}
-  .stamp{display:none}
+  .launch-tag{display:none}
   .band{padding:52px 0}
-  .portrait{max-width:300px;margin:0 auto}
   .sticky{display:flex}
   .foot{padding-bottom:90px}
+}
+@media (max-width:480px){
+  .views{grid-template-columns:1fr}
+  .offer-covers{gap:6px}
+  .price-line .big{font-size:60px}
 }
 </style>
 </head>
@@ -209,8 +200,8 @@ h2{font-family:Oswald,Impact,sans-serif;font-weight:600;text-transform:uppercase
 
 <header class="masthead">
   <div class="wrap">
-    <p class="brand">[YOUR NAME]<small>MILITARY HISTORY · WW2 FILES</small></p>
-    <div class="stamp">DECLASSIFIED</div>
+    <p class="brand">WWII <span>Untold</span> Stories<small>THE BOOKS BEHIND THE CHANNEL</small></p>
+    <div class="launch-tag">Launch week pricing</div>
   </div>
 </header>
 
@@ -218,41 +209,35 @@ h2{font-family:Oswald,Impact,sans-serif;font-weight:600;text-transform:uppercase
 <section class="hero">
   <div class="wrap">
     <div>
-      <p class="eyebrow">// The stories they skipped in school</p>
-      <h1>The Second World War your textbook left out ... told in plain English, one battle at a time.</h1>
-      <p class="lede">You do not need to be a historian for this. I will walk you through the decisions, the machines and the men that actually decided the war, so it finally makes sense.</p>
+      <p class="eyebrow">Four new books · large, easy-read print</p>
+      <h1>The battles your history books skipped ... now in four books you can hold onto.</h1>
+      <p class="lede">Samar. Shinano. Yamamoto. Patton's warning. The full, expanded stories behind the channel's most-watched documentaries, plus missions never told on screen.</p>
       <div class="btns">
-        <a class="btn btn-red" href="#offer">See the book</a>
-        <a class="btn btn-ghost" href="#inside">What's inside</a>
+        <a class="btn btn-red" href="#offer">Get all four books</a>
+        <a class="btn btn-ghost" href="#books">See each book</a>
       </div>
     </div>
     <div class="art">
-      <!-- Replace this whole .book-stage with <img src="cover.jpg"> when you have a real cover -->
-      <div class="book-stage">
-        <div class="book">
-          <div class="cover">
-            <div class="top">1939 — 1945</div>
-            <svg class="star" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="46" fill="none" stroke="#c9a24a" stroke-width="3"/><polygon points="50,12 59,40 89,40 65,58 74,87 50,69 26,87 35,58 11,40 41,40" fill="#efe2bd"/></svg>
-            <div class="title">THE<span>FORGOTTEN</span>WAR FILES</div>
-            <div class="sub">What really decided World War II</div>
-            <div class="author">[YOUR NAME]</div>
-          </div>
-        </div>
+      <div class="fan">
+        <img src="images/b2-cover.webp" alt="Leyte: The Last Great Sea Battle cover" width="800" height="1200">
+        <img src="images/b3-cover.webp" alt="Patton's War cover" width="800" height="1200">
+        <img src="images/b4-cover.webp" alt="The War in Maps & Photos cover" width="800" height="1200">
+        <img src="images/b1-cover.webp" alt="The Untold War cover" width="800" height="1200">
       </div>
     </div>
   </div>
 </section>
 
-<!-- WHAT YOU'LL GET OUT OF IT -->
+<!-- WHAT YOU GET OUT OF IT -->
 <section class="early-benefits">
   <div class="narrow">
-    <p class="kicker">What you'll be able to do with it</p>
+    <p class="kicker">What you'll get out of them</p>
     <ul class="checks">
-      <li>Follow the whole war from <b>Poland in 1939 to Tokyo Bay in 1945</b> without getting lost in names and dates.</li>
-      <li>Understand <b>why</b> each turning point happened, not just <b>when</b>.</li>
-      <li>Know the tanks, planes and ships that mattered, and why some "legendary" ones were not.</li>
-      <li>Read the true stories of ordinary soldiers, pilots and sailors that never made the films.</li>
-      <li>Hold your own in any WW2 conversation, with the facts to back it up.</li>
+      <li>Read the <b>full story</b> behind each documentary: the numbers, the timelines and the decision points the videos had no room for.</li>
+      <li>Discover operations the channel <b>never covered</b>: Mincemeat, the Ghost Army, Castle Itter, the St Nazaire raid and more.</li>
+      <li>Get the whole of a battle or a war in <b>30 seconds</b> from the Key Facts box at the top of every chapter.</li>
+      <li>Understand <b>why each action mattered</b>, explained plainly at the end of every chapter.</li>
+      <li>See it all in <b>authentic wartime photographs</b> from the U.S. National Archives.</li>
     </ul>
   </div>
 </section>
@@ -261,130 +246,188 @@ h2{font-family:Oswald,Impact,sans-serif;font-weight:600;text-transform:uppercase
 <section class="stats">
   <div class="narrow">
     <div class="grid">
-      <div class="stat"><div class="n">[40]+</div><div class="l">Battles explained</div></div>
-      <div class="stat"><div class="n">[300]</div><div class="l">Pages · no filler</div></div>
-      <div class="stat"><div class="n">6 yrs</div><div class="l">Of war, start to end</div></div>
+      <div class="stat"><div class="n">4</div><div class="l">Books in the library</div></div>
+      <div class="stat"><div class="n">151</div><div class="l">Pages of real history</div></div>
+      <div class="stat"><div class="n">Large</div><div class="l">Easy-read print</div></div>
     </div>
   </div>
 </section>
 
-<!-- WHO AM I -->
+<!-- WHO WE ARE -->
 <section class="band">
   <div class="wrap about">
-    <!-- Replace .portrait with <img src="author.jpg"> -->
-    <div class="portrait">[ your photo here ]</div>
+    <img class="shot" src="images/b1-thumb3.webp" alt="Forgotten battles, secret missions, all in one book" width="960" height="540" loading="lazy">
     <div class="body-serif">
-      <p class="kicker">Who am I</p>
-      <h2>[X] years reading the war so you don't have to.</h2>
-      <p>I am [Your Name]. [Write 3–4 honest lines about yourself: how you got into WW2 history, your YouTube channel, how many books/documents you have gone through, why you wrote this.]</p>
-      <p>[Second short paragraph: what frustrated you about how the war is usually taught, and what you did differently in this book.]</p>
+      <p class="kicker">Who we are</p>
+      <h2>We tell the stories the big documentaries skip.</h2>
+      <p>WWII Untold Stories is the YouTube channel behind long-form documentaries on the forgotten corners of the Second World War: a handful of destroyers charging the largest battleship ever built, a supercarrier sunk eleven days after launch, a general's warning nobody believed.</p>
+      <p>Viewers kept asking for more detail than a video can hold. These books are the answer. The writing is original, and the photographs come from U.S. government and public-domain archives, with credits inside every book.</p>
+      <div class="views">
+        <div><b>52K</b>views · the P-38 over New Guinea</div>
+        <div><b>42K</b>views · the stand off Samar</div>
+        <div><b>38K</b>views · the sinking of Shinano</div>
+        <div><b>34K</b>views · the man who saw the Bulge coming</div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- OFFER -->
-<section class="band offer" id="offer">
+<section class="band offer tile" id="offer">
   <div class="wrap">
     <div class="offer-card" id="checkout-card">
-      <p class="price-line">Order the book<span class="big">$27</span>once. No subscription. Yours forever.</p>
-      <p class="delivery">In your inbox the minute you pay.</p>
+      <div class="offer-covers">
+        <img src="images/b1-cover.webp" alt="The Untold War" width="800" height="1200" loading="lazy">
+        <img src="images/b2-cover.webp" alt="Leyte" width="800" height="1200" loading="lazy">
+        <img src="images/b3-cover.webp" alt="Patton's War" width="800" height="1200" loading="lazy">
+        <img src="images/b4-cover.webp" alt="The War in Maps & Photos" width="800" height="1200" loading="lazy">
+      </div>
+      <p class="price-line">The Complete Untold War Library<span class="big">$39.99</span>once. No subscription. Yours forever.</p>
+      <p class="delivery">Instant PDF download the minute you pay, with a copy sent to your email.</p>
 
-      <h3>The Forgotten War Files</h3>
-      <p style="margin:0;color:var(--ink-soft);font-size:17px">The turning points, machines and untold stories of World War II, written plainly and in order. You are buying the main book and the battle-map pack together. The bonuses and every future edition come free with them.</p>
-
+      <h3>What you get for $39.99:</h3>
       <ul class="items">
-        <li><div><span class="tag">The main book</span>The Forgotten War Files ... the full story, 1939–1945</div><div class="val">$47</div></li>
-        <li><div><span class="tag">Included</span>[Bonus 1: WW2 Battle Map Pack ... every front, one page each]</div><div class="val">$27</div></li>
-        <li><div><span class="tag">🎁 Free bonus</span>[Bonus 2: Machines of WW2 ... tanks, planes &amp; ships guide]</div><div class="val"><s>$17</s><span class="free">FREE</span></div></li>
-        <li><div><span class="tag">🎁 Free bonus</span>Every future edition ... straight to your inbox</div><div class="val"><s>$7</s><span class="free">FREE</span></div></li>
+        <li><div><span class="tag">Book 1 · 53 pages</span>The Untold War ... 20 forgotten battles &amp; secret operations</div><div class="val">$14.99</div></li>
+        <li><div><span class="tag">Book 2 · 38 pages</span>Leyte ... the last great sea battle, all four battles in one</div><div class="val">$12.99</div></li>
+        <li><div><span class="tag">Book 3 · 46 pages</span>Patton's War ... the general who saw it coming</div><div class="val">$13.99</div></li>
+        <li><div><span class="tag">Book 4 · 14 landscape pages</span>The War in Maps &amp; Photos ... 12 battles, one page each</div><div class="val">$14.99</div></li>
       </ul>
-      <div class="total"><span>Total value</span><span class="val"><s>$98</s><b>$27</b></span></div>
+      <div class="total"><span>Bought separately</span><span class="val"><s>$56.96</s><b>$39.99</b></span></div>
 
-      <!-- PASTE YOUR GUMROAD / PAYHIP / STRIPE LINK HERE -->
-      <a class="btn btn-red btn-block" href="#checkout">Get the book · $27</a>
+      <a class="btn btn-red btn-block" data-buy="bundle" href="#offer">Get all four books · $39.99</a>
       <p class="payonce">PAY ONCE · YOURS FOREVER</p>
+      <p class="code">Launch week: use code <b>UNTOLD20</b> at checkout for 20% off.</p>
 
       <div class="guarantee">
-        <div class="seal">30 DAY<br>MONEY<br>BACK</div>
-        <div><b>100% money back guarantee.</b> No awkward questions. If the book is not for you, email me within 30 days and you get every cent back.</div>
+        <div class="seal">7 DAY<br>MONEY<br>BACK</div>
+        <div><b>Money back guarantee.</b> Message us within 7 days of buying and you get a full refund. No awkward questions.</div>
       </div>
 
       <div class="trust">
-        <span><span class="stars">★★★★★</span> [4.9] · [X]+ readers</span>
-        <span>🔒 Secure checkout</span>
-        <span class="cards"><span>VISA</span><span>MASTERCARD</span><span>PAYPAL</span></span>
+        <span>🔒 Secure checkout by Whop</span>
+        <span>Read on phone, tablet or computer</span>
       </div>
-      <p class="support">Already ordered and the book has not turned up? Write to <a href="mailto:[support@yourdomain.com]">[support@yourdomain.com]</a> and I will send it straight over.</p>
+      <p class="support">Want just one book? Each one is sold separately below.</p>
     </div>
   </div>
 </section>
 
-<!-- REVIEWS — replace every SAMPLE card with a real reader review before going live -->
-<section class="band tile">
+<!-- THE FOUR BOOKS -->
+<section class="band" id="books">
   <div class="wrap">
-    <p class="kicker">Readers</p>
-    <h2>What people wrote back</h2>
-    <div class="reviews">
-      <div class="review"><span class="sample">SAMPLE</span><div class="r"><span class="stars">★★★★★</span> 5.0</div><p>"[Real review: e.g. what the reader finally understood after reading.]"</p><div class="who">[Name], [Age], [State]</div></div>
-      <div class="review"><span class="sample">SAMPLE</span><div class="r"><span class="stars">★★★★★</span> 4.8</div><p>"[Real review: e.g. which chapter they liked most and why.]"</p><div class="who">[Name], [Age], [State]</div></div>
-      <div class="review"><span class="sample">SAMPLE</span><div class="r"><span class="stars">★★★★★</span> 4.9</div><p>"[Real review: e.g. a veteran's grandchild, a history teacher, a channel viewer.]"</p><div class="who">[Name], [Age], [State]</div></div>
-    </div>
+    <p class="kicker">The library</p>
+    <h2>Four books. Every one stands on its own.</h2>
+
+    <article class="book-row">
+      <div class="cov"><img src="images/b1-cover.webp" alt="The Untold War cover" width="800" height="1200" loading="lazy"></div>
+      <div>
+        <div class="num">Book 1 · the anthology</div>
+        <h3>The Untold War</h3>
+        <p class="hl">20 forgotten battles &amp; secret operations of WWII.</p>
+        <div class="meta"><span>53 pages</span><span>20 stories</span><span>Pacific + Europe</span></div>
+        <ul>
+          <li><b>The Pacific inferno:</b> Taffy 3 off Samar, Surigao Strait, Shinano, Yamato's last voyage, the Yamamoto mission, the P-38 over New Guinea, the submarine war.</li>
+          <li><b>Europe's hidden war:</b> Patton's intelligence chief, Operation Greif, Market Garden, Operation Mincemeat, the Ghost Army, St Nazaire, Castle Itter.</li>
+        </ul>
+        <div class="buyline"><span class="p">$14.99<s>$19.99</s></span><a class="btn btn-ghost" data-buy="book1" href="#offer">Buy this book</a></div>
+      </div>
+    </article>
+
+    <article class="book-row">
+      <div class="cov"><img src="images/b2-cover.webp" alt="Leyte cover" width="800" height="1200" loading="lazy"></div>
+      <div>
+        <div class="num">Book 2 · 23–26 October 1944</div>
+        <h3>Leyte ... The Last Great Sea Battle</h3>
+        <p class="hl">Four days. Four battles. Over 200 ships. The largest naval battle in history, told battle by battle.</p>
+        <div class="meta"><span>38 pages</span><span>10 chapters</span><span>Timeline + losses tables</span></div>
+        <ul>
+          <li>Musashi's death in the Sibuyan Sea, and Pearl Harbor's battleships crossing the T at Surigao.</li>
+          <li>Ozawa's decoy, Halsey's decision, and Taffy 3's stand off Samar, in full.</li>
+          <li>Cape Engaño, and the birth of the kamikaze.</li>
+        </ul>
+        <div class="buyline"><span class="p">$12.99<s>$16.99</s></span><a class="btn btn-ghost" data-buy="book2" href="#offer">Buy this book</a></div>
+      </div>
+    </article>
+
+    <article class="book-row">
+      <div class="cov"><img src="images/b3-cover.webp" alt="Patton's War cover" width="800" height="1200" loading="lazy"></div>
+      <div>
+        <div class="num">Book 3 · the biography</div>
+        <h3>Patton's War</h3>
+        <p class="hl">The general who saw it coming. The brilliance and the controversies, no hagiography and no hit-piece.</p>
+        <div class="meta"><span>46 pages</span><span>12 chapters</span><span>Timeline 1885–1945</span></div>
+        <ul>
+          <li>Sicily and the slapping scandal, the breakout, and the race across France.</li>
+          <li>Col. Oscar Koch's warning about the Bulge, and the turn north to Bastogne.</li>
+          <li>Across the Rhine, the Hammelburg raid, and his last days.</li>
+        </ul>
+        <div class="buyline"><span class="p">$13.99<s>$17.99</s></span><a class="btn btn-ghost" data-buy="book3" href="#offer">Buy this book</a></div>
+      </div>
+    </article>
+
+    <article class="book-row">
+      <div class="cov"><img src="images/b4-cover.webp" alt="The War in Maps & Photos cover" width="800" height="1200" loading="lazy"></div>
+      <div>
+        <div class="num">Book 4 · the visual companion</div>
+        <h3>The War in Maps &amp; Photos</h3>
+        <p class="hl">Every battle on one page: the real wartime photograph, a clear map of how it unfolded, the story and the numbers.</p>
+        <div class="meta"><span>14 landscape pages</span><span>12 battles</span><span>Made to gift</span></div>
+        <ul>
+          <li>Leyte Gulf, Samar, Surigao Strait, Shinano, the Yamamoto intercept, New Guinea's ace race.</li>
+          <li>Bastogne, Market Garden, St Nazaire, Operation Mincemeat, the Ghost Army, Castle Itter.</li>
+        </ul>
+        <div class="buyline"><span class="p">$14.99<s>$19.99</s></span><a class="btn btn-ghost" data-buy="book4" href="#offer">Buy this book</a></div>
+      </div>
+    </article>
   </div>
 </section>
 
-<!-- WHAT'S INSIDE -->
-<section class="band" id="inside">
+<!-- EVERY CHAPTER (the "chart" section) -->
+<section class="band tile">
   <div class="wrap split">
     <div class="body-serif">
-      <p class="kicker">What's inside</p>
-      <h2>Everyone knows D-Day and Pearl Harbor. The war was decided in a hundred other places.</h2>
-      <p>Most books repeat the same five famous battles. This one goes to the convoys, the code rooms, the factories and the islands nobody remembers, and shows how each one moved the war.</p>
-      <p>Every chapter opens with a one-page map and closes with a short "why it mattered", so you never lose the thread.</p>
+      <p class="kicker">How the books are built</p>
+      <h2>Every chapter gives you the battle in thirty seconds, then the whole story.</h2>
+      <p>History books bury the facts in long paragraphs. Ours put them in a box at the top of every chapter, so you always know where you are before the story begins.</p>
       <ul class="checks plain">
-        <li><b>The decisions:</b> the choices by generals and leaders that changed everything, and the ones that nearly did.</li>
-        <li><b>The machines:</b> the tanks, aircraft and ships, and the real reasons some won and some failed.</li>
-        <li><b>The people:</b> first-hand stories of soldiers, pilots, sailors and civilians.</li>
-        <li><b>The myths:</b> the popular "facts" about WW2 that do not hold up, and what really happened.</li>
+        <li><b>Key Facts box:</b> date, forces, losses and result at a glance.</li>
+        <li><b>The full story:</b> the decisions, the timelines and the men who made them.</li>
+        <li><b>Why it mattered:</b> what the battle changed, explained plainly.</li>
+        <li><b>Real photographs</b> from the U.S. National Archives.</li>
+        <li><b>Large, clear type</b>, set for long evenings with real history.</li>
       </ul>
     </div>
-    <div class="dossier">
-      <h4>FILE 01 · CONTENTS</h4>
-      <ol>
-        <li>[Chapter 1 — The road to war, 1919–1939]</li>
-        <li>[Chapter 2 — Blitzkrieg: Poland &amp; France]</li>
-        <li>[Chapter 3 — The Battle of Britain]</li>
-        <li>[Chapter 4 — Barbarossa &amp; the Eastern Front]</li>
-        <li>[Chapter 5 — Pearl Harbor &amp; the Pacific]</li>
-        <li>[Chapter 6 — Midway: five minutes that turned a war]</li>
-        <li>[Chapter 7 — Stalingrad]</li>
-        <li>[Chapter 8 — The Battle of the Atlantic]</li>
-        <li>[Chapter 9 — D-Day &amp; the road to Berlin]</li>
-        <li>[Chapter 10 — Iwo Jima, Okinawa &amp; the end]</li>
-        <li><span class="redact">██████████████</span> + more</li>
-      </ol>
+    <div class="facts">
+      <div class="head">Key Facts · The Stand Off Samar</div>
+      <img src="images/b2-thumb1.webp" alt="Leyte Gulf: the last great sea battle" width="960" height="540" loading="lazy">
+      <dl>
+        <dt>Date</dt><dd>25 October 1944</dd>
+        <dt>U.S.</dt><dd>Taffy 3: 6 escort carriers, 3 destroyers, 4 destroyer escorts</dd>
+        <dt>Japan</dt><dd>Kurita's Center Force, led by the battleship Yamato</dd>
+        <dt>Result</dt><dd>Kurita turns back. The invasion beaches at Leyte are saved.</dd>
+      </dl>
+      <div class="why"><b>Why it mattered</b>Some of the smallest ships in the fleet stopped the largest battleship ever built from reaching the landing force.</div>
     </div>
   </div>
 </section>
 
-<!-- TIMELINE (replaces "the arithmetic" section) -->
+<!-- THE ARITHMETIC -->
 <section class="band dark">
   <div class="narrow">
-    <p class="kicker">The timeline</p>
-    <h2>Six years. Every turning point. In one book.</h2>
-    <div class="body-serif"><p>I am not asking you to take it on faith. Here are the moments the book is built around.</p></div>
-    <ul class="timeline">
-      <li><div class="d">1 Sep 1939</div><div class="t">Germany invades Poland. The war in Europe begins.</div></li>
-      <li><div class="d">Summer 1940</div><div class="t">France falls. Britain stands alone in the air.</div></li>
-      <li><div class="d">22 Jun 1941</div><div class="t">Operation Barbarossa opens the Eastern Front.</div></li>
-      <li><div class="d">7 Dec 1941</div><div class="t">Pearl Harbor brings the United States into the war.</div></li>
-      <li><div class="d">4 Jun 1942</div><div class="t">Midway. Four Japanese carriers lost.</div></li>
-      <li><div class="d">2 Feb 1943</div><div class="t">The German Sixth Army surrenders at Stalingrad.</div></li>
-      <li><div class="d">6 Jun 1944</div><div class="t">D-Day. The Allies land in Normandy.</div></li>
-      <li><div class="d">8 May 1945</div><div class="t">Victory in Europe.</div></li>
-      <li><div class="d">2 Sep 1945</div><div class="t">Japan signs the surrender aboard USS Missouri.</div></li>
+    <p class="kicker">The arithmetic</p>
+    <h2>Buy the library and the fourth book is more than free.</h2>
+    <div class="body-serif"><p>Here are the launch prices, book by book.</p></div>
+    <ul class="calc">
+      <li><span>The Untold War</span><span>$14.99</span></li>
+      <li><span>Leyte ... The Last Great Sea Battle</span><span>$12.99</span></li>
+      <li><span>Patton's War</span><span>$13.99</span></li>
+      <li><span>The War in Maps &amp; Photos</span><span>$14.99</span></li>
+      <li><span>Bought one by one</span><span>$56.96</span></li>
+      <li class="save"><span>You keep with the library</span><span>$16.97</span></li>
+      <li class="sum"><span>The Complete Untold War Library</span><span>$39.99</span></li>
     </ul>
-    <div class="tl-total"><span>The whole war, explained</span><b>$27</b></div>
-    <div style="margin-top:30px"><a class="btn btn-red btn-block" href="#offer">Get the book</a></div>
+    <div class="body-serif" style="margin-top:22px"><p>Launch prices last for the first week. After that the four books go back to $74.96 bought separately.</p></div>
+    <div style="margin-top:26px"><a class="btn btn-gold btn-block" data-buy="bundle" href="#offer">Get the library · $39.99</a></div>
   </div>
 </section>
 
@@ -393,37 +436,59 @@ h2{font-family:Oswald,Impact,sans-serif;font-weight:600;text-transform:uppercase
   <div class="narrow faq">
     <p class="kicker">Questions</p>
     <h2>Before you order</h2>
-    <details><summary>What am I actually getting?</summary><p>[The main ebook as a PDF (and EPUB for Kindle/phones), plus the bonuses listed above. One payment, no subscription.]</p></details>
-    <details><summary>How do I get it after I pay?</summary><p>[The download link lands in your inbox within a minute of paying. If it does not, check spam, then email me and I will send it over by hand.]</p></details>
-    <details><summary>Is this the same as your YouTube videos?</summary><p>[No. The videos cover single stories. The book puts the whole war in order, with maps and chapters the videos never had room for.]</p></details>
-    <details><summary>Do I need to know a lot about history?</summary><p>No. It is written for someone starting from zero. If you already know the basics, the "myths" and "machines" sections will still give you plenty you have not read before.</p></details>
-    <details><summary>Can I read it on my phone or Kindle?</summary><p>[Yes. The PDF opens on any phone, tablet or computer, and the EPUB works with Kindle and Apple Books.]</p></details>
-    <details><summary>What if I don't like it?</summary><p>Email me within 30 days and I will refund you in full. No questions.</p></details>
+    <details><summary>What am I actually getting?</summary><p>Four PDF books: The Untold War (53 pages), Leyte (38 pages), Patton's War (46 pages) and The War in Maps &amp; Photos (14 landscape pages). One payment, no subscription.</p></details>
+    <details><summary>How do I get the books after I pay?</summary><p>You can download the PDFs straight after checkout, and a copy is sent to your email.</p></details>
+    <details><summary>Is this just the videos written down?</summary><p>No. The stories from the videos are expanded with the numbers, timelines and decision points, and many operations were never covered on the channel at all: Mincemeat, the Ghost Army, Castle Itter, St Nazaire and more.</p></details>
+    <details><summary>Is the print big enough to read comfortably?</summary><p>Yes. Every book is set in a deliberately large, clean type size, so it is easy on the eyes on a tablet or printed out.</p></details>
+    <details><summary>Are the maps real geographic maps?</summary><p>They are schematics, clearly marked "not to scale". Distances are compressed so the shape of each battle fits on one page and is easy to follow.</p></details>
+    <details><summary>Is Patton's War just praise for Patton?</summary><p>No. It is a balanced account. The Sicily slapping scandal, the Argentan controversy and the Hammelburg raid are all covered on the record, from both sides.</p></details>
+    <details><summary>Would this make a good gift?</summary><p>Yes. The War in Maps &amp; Photos was made to be browsed and gifted, and the full library is the best fit for a history-loving father or grandfather.</p></details>
+    <details><summary>What if I don't like them?</summary><p>Message us within 7 days and you will get a full refund.</p></details>
   </div>
 </section>
 
 <section class="band tile final">
   <div class="narrow">
-    <h2>Get the whole war in one book.</h2>
-    <p style="font-family:Lora,serif;color:var(--ink-soft);font-size:21px;margin:0 0 26px">$27 once. Yours forever. 30-day money back.</p>
-    <a class="btn btn-red btn-block" href="#offer" style="margin:0 auto">Get the book · $27</a>
+    <h2>Get the whole library tonight.</h2>
+    <p style="font-family:Lora,serif;color:var(--ink-soft);font-size:21px;margin:0 0 26px">Four books, $39.99 once. Instant download. 7-day money back.</p>
+    <a class="btn btn-red btn-block" data-buy="bundle" href="#offer">Get all four books · $39.99</a>
   </div>
 </section>
 
 <footer class="foot">
   <div class="wrap">
-    <nav><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Refunds</a><a href="mailto:[support@yourdomain.com]">Contact</a></nav>
-    <div>© 2026 [Your Name]. All rights reserved.</div>
+    <nav><a href="#books">The books</a><a href="#offer">Order</a><a href="#" data-link="youtube">YouTube channel</a></nav>
+    <div>© 2026 WWII Untold Stories. Original writing. Photographs from U.S. government and public-domain archives, credited in each book.</div>
   </div>
 </footer>
 
 <div class="sticky" id="sticky">
-  <span class="p">The Forgotten War Files · $27</span>
-  <a class="btn btn-red" href="#offer">Get it</a>
+  <span class="p">All 4 books<br><b>$39.99</b> · instant PDF</span>
+  <a class="btn btn-red" data-buy="bundle" href="#offer">Get them</a>
 </div>
 
 <script>
-  // show the mobile buy bar once the hero is scrolled past, hide it over the offer card
+  /* ============================================================
+     PASTE YOUR WHOP CHECKOUT LINKS HERE.
+     Leave a link empty and its buttons scroll to the order box.
+     ============================================================ */
+  var WHOP = {
+    bundle: "",   // The Complete Untold War Library ($39.99)
+    book1:  "",   // The Untold War
+    book2:  "",   // Leyte
+    book3:  "",   // Patton's War
+    book4:  ""    // The War in Maps & Photos
+  };
+  var YOUTUBE = ""; // channel link for the footer
+
+  document.querySelectorAll('[data-buy]').forEach(function(a){
+    var url = WHOP[a.getAttribute('data-buy')];
+    if (url) { a.href = url; a.rel = "noopener"; }
+  });
+  var yt = document.querySelector('[data-link="youtube"]');
+  if (YOUTUBE) { yt.href = YOUTUBE; yt.target = "_blank"; } else { yt.remove(); }
+
+  // mobile buy bar: show after the hero, hide while the order box is on screen
   (function(){
     var bar=document.getElementById('sticky'), hero=document.querySelector('.hero'), card=document.getElementById('checkout-card');
     var heroGone=false, cardVisible=false;
